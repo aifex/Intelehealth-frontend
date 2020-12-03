@@ -1,0 +1,48 @@
+[{
+    "context": [
+         "/v1"
+    ],
+    "target": "https://demo.intelehealth.org/openmrs/ws/rest/v1",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+   "pathRewrite": {
+    "^/v1": ""
+  }
+},
+  {
+    "context": [
+      "/coreapps"
+    ],
+    "target": "https://demo.intelehealth.org/openmrs/coreapps/diagnoses",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/coreapps": ""
+    }
+  },
+  {
+    "context": [
+      "/openmrs"
+    ],
+    "target": "https://demo.intelehealth.org/openmrs",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/openmrs": ""
+    }
+  },
+  {
+    "context": [
+      "/v1"
+    ],
+    "target": "https://demo.intelehealth.org/openmrs/ws/rest/v1",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/v1": ""
+    }
+  }]
