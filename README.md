@@ -22,12 +22,12 @@ A step by step series of examples that tell you how to get a development environ
 ```    
 3. Start the server
 ```
-"ng serve"
+"npm run start-proxy"
 ```
 
 4. Open in browser
 ```
- "localhost:4200"
+ "localhost:4900"
 ```
 
 ## Built With
